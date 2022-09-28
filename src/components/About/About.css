@@ -1,0 +1,176 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #111;
+   
+}
+.background{
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/02/lenguaje-programacion-1859691.jpg?itok=m--F6UIs");
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.contName{
+    background-color: rgba(77, 79, 80, 0.523);
+    width:100%;
+    height: auto;
+    text-align: center;
+}
+
+.img{
+    height: 9rem;
+    border-radius:50%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.462);
+  }
+
+.name{
+    width: 555px;
+    height: 50px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-flex;
+      flex-direction: column;
+      line-height: 40px;
+      width: 70%;
+      align-self: center;
+  }
+.text{   
+    border-radius: 12px;
+    border-color: aliceblue;
+    margin-top: 1px;
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 2%;
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+      line-height: 40px;
+      width: 70%;
+}
+
+.containAbout{ 
+    background-color: rgb(27, 26, 26);
+    border-style: double;
+    border-color: rgba(52, 52, 52, 0.696);
+    border-radius: 12px;
+    width: 10rem;
+    height: 3rem; 
+    position: absolute;
+    left: 30%;
+    
+}
+.about{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 18px;
+    display: inline;
+    margin-left: 1rem;
+}
+.parrafo{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-position:0 0;
+    background-origin:border-box;
+    
+}
+.Pcontain{
+    background-color: rgba(0, 0, 0, 0.553);
+    border-style: solid;
+    border-color: rgba(90, 89, 89, 0.711);
+    border-radius: 13px;
+    margin-left:10%;
+    margin-right:10%;
+}
+.containSkills{
+    background-color: rgb(27, 26, 26);
+    border-style: double;
+    border-color: rgb(39, 38, 38);
+    border-radius: 12px;
+    width: 10rem;
+    height: 3rem; 
+    position: absolute;
+    left: 30%;
+    flex-wrap: wrap;
+}
+.skills{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 18px;
+    text-align: center;
+}
+.flex-container{
+
+    background-color: rgba(33, 33, 33, 0.646);
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    border-style: double;
+    border-color: rgb(49, 49, 49);
+    border-radius: 12px;
+    flex-wrap: wrap;
+   
+}
+
+ .icon{
+    margin-top: 1rem;
+    margin-left: 0%;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    display: inline-block; 
+}
+.Soft-container{
+    
+    background-color: rgba(33, 33, 33, 0.646);
+    margin-left: 20%;
+    margin-right: 24%;
+    text-align: center;
+    border-style: double;
+    border-color: rgb(49, 49, 49);
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+.softSkills{
+    color: white;
+    margin-left: 4%;
+   font-size: 2rem;
+   text-align: justify;
+   flex-wrap: wrap;
+}
+
+/*
+.iconNode{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.iconExpress{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+
+}
+  
+.iconGit{
+    margin-top: 1rem;
+    margin-left: 15rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+
+}
+   */
