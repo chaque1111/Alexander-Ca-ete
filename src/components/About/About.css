@@ -11,7 +11,7 @@ body{
     position: relative;
     background-attachment: fixed;
     background-position: center;
-    flex-wrap: wrap;
+
 }
 
 .contName{
@@ -35,13 +35,15 @@ body{
     height: 50px;
     border-radius: 15px;
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-flex;
       flex-direction: column;
       line-height: 40px;
       width: 70%;
       align-self: center;
+      margin-left: 0%;
+      margin-right: 0%;
   }
 .text{   
     border-radius: 12px;
@@ -82,15 +84,21 @@ body{
     margin-top: 1rem;
     background-position:0 0;
     background-origin:border-box;
+    flex-wrap: wrap;
     
 }
 .Pcontain{
+    border: 1px solid;
     background-color: rgba(0, 0, 0, 0.553);
     border-style: solid;
     border-color: rgba(90, 89, 89, 0.711);
+    flex-wrap: wrap;
     border-radius: 13px;
-    margin-left:10%;
-    margin-right:10%;
+    position: relative;
+    margin-right: 25vw;
+    margin-left: 20vw;
+    min-width: 300px;
+   
 }
 .containSkills{
     background-color: rgb(27, 26, 26);
@@ -128,6 +136,7 @@ body{
     margin-right: 2rem;
     margin-bottom: 1rem;
     display: inline-block; 
+   
 }
 .Soft-container{
     
@@ -148,29 +157,3 @@ body{
    flex-wrap: wrap;
 }
 
-/*
-.iconNode{
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    display: inline-block;
-}
-.iconExpress{
-    margin-top: 1rem;
-    margin-left: 7rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    display: inline-block;
-
-}
-  
-.iconGit{
-    margin-top: 1rem;
-    margin-left: 15rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    display: inline-block;
-
-}
-   */
